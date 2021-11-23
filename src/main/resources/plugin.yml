@@ -1,0 +1,12 @@
+name: TxResourcePack
+version: 1.0.1
+main: com.spindel10.txresourcepack.txresourcepack.TxResourcePack
+api-version: 1.17
+authors: [ spindel10 ]
+description: Simple plugin which provides a download link for the Tx Resource Pack
+website: https://dylbinthedev.github.io/
+commands:
+  txresourcepack:
+    description: Get download link for the tx resource pack.
+    usage: /txresourcepack
+    aliases: [txtexturepack, txpack, 0txpack, getresourcepack]
